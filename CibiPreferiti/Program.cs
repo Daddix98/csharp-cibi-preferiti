@@ -45,4 +45,11 @@ In questo caso vanno stampati i 2 elementi in centro alla vostra classifica
 */
 
 
+// Calcolo i valori centrali (supponendo che l'arrey contenga sempre un totale di elementi disparo)
 
+var cibiMediani = ((cibiPreferiti.Length - 1) / 2) + 1;
+
+// Seleziono l'elemento mediano nella posizione (cibiMediani) appena calcolata sottraendo 1
+// sapendo che l'array parte da 0.
+
+Console.WriteLine($"\nL'elemento centrale è: {cibiPreferiti[cibiMediani - 1]}");
